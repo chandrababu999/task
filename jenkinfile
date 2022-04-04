@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+    stages {
+        stage('bulid') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+    stages {
+        stage('test') {
+            steps {
+                echo 'my World'
+            }
+        }
+    }
+    stages {
+        stage('depoly') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
